@@ -1,9 +1,12 @@
 @Codigo de exemplo 2
 @Do while
 @Novamente existe um exeplo simples de do while pode ser observado no meu trabalho e no exemplo
-@do fim do livro, 
-@A logica vista lá pode ser aplicada para multiplas funções mas aqui está um 
+@do fim do livro, a logica vista lá pode ser aplicada para multiplas funções mas aqui está um 
 @exemplo generico para vc trabalhar em cima
+@Neste programa tera um loop de 10 repetições como determinado pela variavel Num
+@Existe um loop dentro do loop "Loop_Do_While" chamado "Recebe" que recebe apertos do botão preto
+@Caso você aperte 10 vezes o botão o contador Num vai chegar a 0 e o programa vai encerra
+
 .text
 
   .equ SWI_EXIT, 0x11 @terminate program
